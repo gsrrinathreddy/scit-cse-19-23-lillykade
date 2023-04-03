@@ -53,21 +53,21 @@ export default function CustomizedAccordions() {
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>C Language</Typography>
+          <Typography>Python fo beginners</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Completed this course through some online websites
+            Certified from Skillup,Course : Python for beginners (06/2022-07/2022)
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Full Stack Web Development</Typography>
+          <Typography>Advanced SQL</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            I have completed this course from EDUNET FOUNDATION
+            Certfied from Great Learning Academy Course: Advanced SQL (02/2023-04-23)
           </Typography>
         </AccordionDetails>
       </Accordion>

@@ -53,21 +53,21 @@ export default function CustomizedAccordions() {
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>C Language</Typography>
+          <Typography>Python fo beginners Workshop</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Completed this course through some online websites
+            Completed workshop under this Skillup course
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Full Stack Web Development</Typography>
+          <Typography>Full Stack Web Development Workshop</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            I have completed this course from EDUNET FOUNDATION
+            I have completed this workshop from EDUNET FOUNDATION
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -77,7 +77,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Certified from ICT ACADEMY ,Honeywell youth empowerment program
+            Certified from ICT ACADEMY ,Honeywell youth empowerment program and completed the workshop 
           </Typography>
         </AccordionDetails>
       </Accordion>

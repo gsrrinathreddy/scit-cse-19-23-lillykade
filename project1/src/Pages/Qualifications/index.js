@@ -13,7 +13,7 @@ export default function Qualifications() {
       <h1 className='mode'>Qualifications</h1>
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="RGR Siddhanthi" srsc="hhttps://cdn.w600.comps.canstockphoto.com/education-icon-vector-female-student-eps-vectors_csp70607738.jpg" />
+          <Avatar alt="Sree Chaitanya Institute of Technological Sciences" src="https://img.collegedekhocdn.com/media/img/institute/logo/1434463349.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Sree Chaitanya Institute of Technological Sciences"
@@ -35,7 +35,7 @@ export default function Qualifications() {
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Sri Aadarsh" src="https://png.pngtree.com/png-clipart/20190614/original/pngtree-vector-female-student-icon-png-image_3787628.jpg" />
+          <Avatar alt="SR Junior College, Hanamkonda" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTbhJJoYvF7MEiTTctMv4cEnABk9Zq7MkfSjCoLyBYOlfDeEFL_SuT04njvtB_Xosbo35xiZWgRDw&usqp=CAU&ec=48665699" />
         </ListItemAvatar>
         <ListItemText
           primary="SR Junior College, Hanamkonda"

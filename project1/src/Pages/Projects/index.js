@@ -51,33 +51,24 @@ export default function CustomizedAccordions() {
 
   return (
     <div>
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>C Language</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Completed this course through some online websites
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
+      
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Full Stack Web Development</Typography>
+          <Typography>Full Stack Web Development Project</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            I have completed this course from EDUNET FOUNDATION
+            Submitted a project on "STUDENT RESULT MANAGEMENT SYSTEM"
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>Power bi</Typography>
+          <Typography>Power bi Project</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Certified from ICT ACADEMY ,Honeywell youth empowerment program
+            Submitted Power BI Project  Dashboard Reports 
           </Typography>
         </AccordionDetails>
       </Accordion>
